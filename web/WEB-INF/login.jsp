@@ -16,9 +16,9 @@
         
         
         <form name="loginForm" method="post" action="login">
-            <label for="login_username">Username</label><input type="text" id="login_username" name="loginInfo[]" value="${username}">
+            <label for="login_username">Username: </label><input type="text" id="login_username" name="loginInfo[]" value="${username}">
             <br>
-            <label for="login_password">Password</label><input type="text" id="login_password" name="loginInfo[]" value="${password}">
+            <label for="login_password">Password: </label><input type="text" id="login_password" name="loginInfo[]" value="${password}">
             <br>
             <br>
             <input type="submit" value="Login">
