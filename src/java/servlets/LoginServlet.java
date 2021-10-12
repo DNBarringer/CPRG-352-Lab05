@@ -23,14 +23,6 @@ public class LoginServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         HttpSession session = req.getSession();
-        Object logout = (Object)session.getAttribute("logout");
-
-        if (logout != null) {
-            req.setAttribute("message", "You have successfully logged out");
-        }
-        
-        
-        
         String[] loginInfo = req.getParameterValues("loginInfo[]");
         boolean validated = false;
         String username = loginInfo[0];
