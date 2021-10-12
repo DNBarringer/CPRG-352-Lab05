@@ -14,12 +14,12 @@
     <body>
         <h1>Home Page</h1>
         
-        <h2>Welcome ${s_username}</h2>
+        <h2>Welcome ${s_username}.</h2>
         
         <br>
         
         <nav>
-            <a href="../MyLogin/login?logout">Logout</a>
+            <a href="../MyLogin/login?logout">Log out</a>
         </nav>
     </body>
 </html>
